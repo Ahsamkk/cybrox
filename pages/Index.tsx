@@ -389,7 +389,7 @@ export default function Index() {
               <h4 className="font-semibold mb-4 sm:mb-6 text-base sm:text-lg">Contact</h4>
               <ul className="space-y-2 sm:space-y-3 text-muted-foreground">
                 <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base break-all">hello@cybrox.com</li>
-                <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">+1 (555) 123-4567</li>
+                <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">090078601</li>
                 <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">Schedule a Meeting</li>
                 <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">Get Support</li>
               </ul>
