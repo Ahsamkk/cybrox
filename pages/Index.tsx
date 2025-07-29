@@ -122,10 +122,10 @@ export default function Index() {
             {/* Stats Row */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 max-w-4xl mx-auto px-4">
               {[
-                { number: "100+", label: "Projects Completed" },
+                { number: "50+", label: "Projects Completed" },
                 { number: "50+", label: "Happy Clients" },
                 { number: "24/7", label: "Support" },
-                { number: "5+", label: "Years Experience" }
+                { number: "1+", label: "Years Experience" }
               ].map((stat, index) => (
                 <div key={index} className="text-center group">
                   <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-1 sm:mb-2 group-hover:scale-110 transition-transform">
@@ -388,8 +388,8 @@ export default function Index() {
             <div>
               <h4 className="font-semibold mb-4 sm:mb-6 text-base sm:text-lg">Contact</h4>
               <ul className="space-y-2 sm:space-y-3 text-muted-foreground">
-                <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base break-all">hello@cybrox.com</li>
-                <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">090078601</li>
+                <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base break-all">Info@cybrox.com</li>
+                <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">03278423909</li>
                 <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">Schedule a Meeting</li>
                 <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">Get Support</li>
               </ul>
@@ -397,7 +397,7 @@ export default function Index() {
           </div>
           <div className="border-t border-border pt-6 sm:pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-muted-foreground text-sm sm:text-base text-center md:text-left">
-              © 2024 Cybrox. All rights reserved.
+              © 2025 Cybrox. All rights reserved.
             </div>
             <div className="flex flex-wrap justify-center space-x-4 sm:space-x-6 text-xs sm:text-sm text-muted-foreground">
               <span className="hover:text-primary cursor-pointer transition-colors">Privacy Policy</span>
