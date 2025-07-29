@@ -365,16 +365,36 @@ export default function Index() {
                 Transforming ideas into digital reality through innovative design and development solutions that drive growth.
               </p>
               <div className="flex space-x-3 sm:space-x-4">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground cursor-pointer transition-colors">
-                  <span className="text-xs sm:text-sm font-bold">f</span>
+                <a
+                  href="https://www.instagram.com/cybrox_s"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground cursor-pointer transition-colors">
+                    <span className="text-xs sm:text-sm font-bold">f</span>
+                  </div>
+                </a>
+
+                {/* <a
+                  href="https://www.twitter.com/yourusername"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground cursor-pointer transition-colors">
+                    <span className="text-xs sm:text-sm font-bold">t</span>
+                  </div>
+                </a> */}
+
+                <a
+                  href="https://www.linkedin.com/company/cybrox-solution/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground cursor-pointer transition-colors">
+                    <span className="text-xs sm:text-sm font-bold">in</span>
+                  </div>
+                </a>
                 </div>
-                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground cursor-pointer transition-colors">
-                  <span className="text-xs sm:text-sm font-bold">t</span>
-                </div>
-                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground cursor-pointer transition-colors">
-                  <span className="text-xs sm:text-sm font-bold">in</span>
-                </div>
-              </div>
             </div>
             <div>
               <h4 className="font-semibold mb-4 sm:mb-6 text-base sm:text-lg">Services</h4>
