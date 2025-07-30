@@ -88,10 +88,10 @@ export default function Index() {
 
         <div className="relative z-20 container mx-auto text-center max-w-full w-full">
           <div className="animate-fade-in-up px-4 sm:px-6 lg:px-8">
-            <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-3 sm:px-4 py-2 mb-6 sm:mb-8">
+            {/* <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-3 sm:px-4 py-2 mb-6 sm:mb-8">
               <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
               <span className="text-primary text-xs sm:text-sm font-medium">Digital Agency</span>
-            </div>
+            </div> */}
 
             <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 leading-tight">
               <span className="block text-foreground">Crafting Digital</span>
@@ -111,8 +111,8 @@ export default function Index() {
                 <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button size="lg" variant="outline" className="text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 border-primary text-primary hover:bg-primary hover:text-primary-foreground group w-full sm:w-auto">
-                <Play className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-                Watch Demo
+                {/* <Play className="mr-2 h-4 w-4 sm:h-5 sm:w-5" /> */}
+                Book Meeting
               </Button>
             </div>
 
