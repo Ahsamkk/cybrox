@@ -52,9 +52,8 @@ export default function Index() {
         </div>
       </nav>
 
-      {/* Hero Section with Background */}
+      {/* Hero Section */}
       <section id="home" className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden w-full pt-20 sm:pt-24">
-        {/* Background Image */}
         <div
           className="absolute inset-0 z-0 w-full h-full"
           style={{
@@ -67,15 +66,13 @@ export default function Index() {
           <div className="absolute inset-0 bg-background/85"></div>
         </div>
         
-        {/* Enhanced Animated Elements */}
+        {/* Animated Elements */}
         <div className="absolute inset-0 z-10">
-          {/* Moving Dark Red Dots */}
           <div className="absolute top-1/4 left-20 w-2 h-2 bg-red-800 rounded-full animate-move-up-down"></div>
           <div className="absolute bottom-1/3 left-24 w-2 h-2 bg-red-800 rounded-full animate-move-up-down-delayed"></div>
           <div className="absolute top-1/3 right-20 w-2 h-2 bg-red-800 rounded-full animate-move-up-down-reverse"></div>
           <div className="absolute bottom-1/4 right-24 w-2 h-2 bg-red-800 rounded-full animate-move-up-down-fast"></div>
 
-          {/* Tech Grid Pattern */}
           <div className="absolute inset-0 opacity-10">
             <div className="grid grid-cols-12 gap-8 h-full">
               {Array.from({ length: 48 }).map((_, i) => (
@@ -160,25 +157,25 @@ export default function Index() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {[
               {
-                icon: Code,
-                title: "Web Development",
-                description: "Custom websites and web applications built with modern technologies and best practices",
-                features: ["React & Next.js", "Full-Stack Solutions", "E-commerce Platforms", "SEO Optimized"],
-                color: "from-blue-500 to-cyan-500"
+                icon: Palette,
+                title: "Cyber Security Services",
+                description: "Protecting your digital assets and ensuring compliance with industry standards",
+                features: ["VAPT", "GRC"],
+                color: "from-orange-500 to-red-500"
               },
               {
                 icon: Smartphone,
                 title: "App Development", 
                 description: "Native and cross-platform mobile applications for iOS and Android platforms",
                 features: ["React Native", "Flutter Development", "Native iOS/Android", "Progressive Web Apps"],
-                color: "from-green-500 to-emerald-500"
+                color: "from-orange-500 to-red-500"
               },
               {
-                icon: Palette,
-                title: "Logo Design",
-                description: "Memorable brand identities that capture your company's essence and values",
-                features: ["Brand Strategy", "Logo Concepts", "Brand Guidelines", "Logo Variations"],
-                color: "from-purple-500 to-violet-500"
+                icon: Code,
+                title: "Web Development",
+                description: "Custom websites and web applications built with modern technologies and best practices",
+                features: ["React & Next.js", "Full-Stack Solutions", "E-commerce Platforms", "SEO Optimized"],
+                color: "from-orange-500 to-red-500"
               },
               {
                 icon: Eye,
@@ -418,8 +415,8 @@ export default function Index() {
               <ul className="space-y-2 sm:space-y-3 text-muted-foreground">
                 <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base break-all">Info@cybrox.com</li>
                 <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">03278423909</li>
-                <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">Schedule a Meeting</li>
-                <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">Get Support</li>
+                <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">Suit # 102, Noor Trade Center, 13 A Gulshan-e-Iqbal, Karachi, 75330</li>
+                {/* <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">Get Support</li> */}
               </ul>
             </div>
           </div>
