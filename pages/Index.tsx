@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, Code, Smartphone, Palette, Zap, Users, Star, Play, CheckCircle, Globe, Rocket, Eye, Monitor, Database, Shield } from "lucide-react";
+import { ArrowRight, Code, Smartphone, Palette, Zap, Users, Star, CheckCircle, Globe, Rocket, Eye, Monitor, Database, Shield } from "lucide-react";
 import { useEffect, useRef } from "react";
 
 export default function Index() {
@@ -94,15 +94,14 @@ export default function Index() {
             </div> */}
 
             <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 leading-tight">
-              <span className="block text-foreground">Crafting Digital</span>
+              <span className="block text-foreground">Where Security </span>
               <span className="block bg-gradient-to-r from-primary to-red-400 bg-clip-text text-transparent">
-                Excellence
+                Meets Innovation
               </span>
             </h1>
 
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 sm:mb-12 max-w-4xl mx-auto leading-relaxed px-4">
-              We transform your ideas into powerful digital solutions. From web development to stunning graphics,
-              we bring your vision to life with cutting-edge technology and creative design.
+              We protect your online presence with cutting-edge cybersecurity solutions, while also crafting innovative web and mobile applications to drive your business forward.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center mb-12 sm:mb-16 px-4">
@@ -157,10 +156,10 @@ export default function Index() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {[
               {
-                icon: Palette,
+                icon: Shield,
                 title: "Cyber Security Services",
                 description: "Protecting your digital assets and ensuring compliance with industry standards",
-                features: ["VAPT", "GRC"],
+                features: ["VAPT", "GRC","Security Awareness","Social Engineering"],
                 color: "from-orange-500 to-red-500"
               },
               {
@@ -404,9 +403,9 @@ export default function Index() {
             <div>
               <h4 className="font-semibold mb-4 sm:mb-6 text-base sm:text-lg">Services</h4>
               <ul className="space-y-2 sm:space-y-3 text-muted-foreground">
-                <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">Web Development</li>
+                <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">Cyber Security Services</li>
                 <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">App Development</li>
-                <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">Logo Design</li>
+                <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">Web Development</li> 
                 <li className="hover:text-primary cursor-pointer transition-colors text-sm sm:text-base">Graphic Design</li>
               </ul>
             </div>
