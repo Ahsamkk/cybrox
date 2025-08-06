@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Code, Smartphone, Palette, Zap, Users, Star, CheckCircle, Globe, Rocket, Eye, Monitor, Database, Shield } from "lucide-react";
 import { useEffect, useRef } from "react";
+import { Link } from 'react-router-dom';
 
 export default function Index() {
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
@@ -40,22 +41,28 @@ export default function Index() {
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden w-full">
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between max-w-full">
+        <div className="container mx-auto px-4 py-2 flex items-center justify-between max-w-full">
           <div className="text-xl md:text-2xl">
-            <img src="Main-Logo.png" alt="" className="w-20 h-20" />
+            <Link to="/">
+              <img src="Main-Logo.png" alt="Logo" className="w-20 h-20" />
+            </Link>
           </div>
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
-            <a href="#home" className="hover:text-primary transition-colors text-sm lg:text-base">Home</a>
+            <a href="/" className="hover:text-primary transition-colors text-sm lg:text-base">Home</a>
             <a href="#services" className="hover:text-primary transition-colors text-sm lg:text-base">Services</a>
             <a href="#about" className="hover:text-primary transition-colors text-sm lg:text-base">About</a>
-            <a href="#contact" className="hover:text-primary transition-colors text-sm lg:text-base">Contact</a>
+            <a href="/contact" className="hover:text-primary transition-colors text-sm lg:text-base">Contact</a>
           </div>
-          <Button className="bg-primary hover:bg-primary/90 text-sm md:text-base px-3 md:px-4 py-2">Get Started</Button>
-        </div>
+            <Link to="/contact">
+              <Button className="bg-primary hover:bg-primary/90 text-sm md:text-base px-3 md:px-4 py-2">
+                Get Started
+              </Button>
+            </Link>
+          </div>
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden w-full pt-20 sm:pt-24">
+     <section id="home" className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden w-full pt-28 sm:pt-32">
         <div
           className="absolute inset-0 z-0 w-full h-full"
           style={{
@@ -107,14 +114,18 @@ export default function Index() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center mb-12 sm:mb-16 px-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 group w-full sm:w-auto">
-                Start Your Project
-                <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button size="lg" variant="outline" className="text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 border-primary text-primary hover:bg-primary hover:text-primary-foreground group w-full sm:w-auto">
-                {/* <Play className="mr-2 h-4 w-4 sm:h-5 sm:w-5" /> */}
-                Book Meeting
-              </Button>
+              <Link to="/contact">
+                <Button size="lg" className="bg-primary hover:bg-primary/90 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 group w-full sm:w-auto">
+                  Start Your Project
+                  <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </Link>
+              <Link to="/contact">
+                <Button size="lg" variant="outline" className="text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 border-primary text-primary hover:bg-primary hover:text-primary-foreground group w-full sm:w-auto">
+                  {/* <Play className="mr-2 h-4 w-4 sm:h-5 sm:w-5" /> */}
+                  Book Meeting
+                </Button>
+              </Link>
             </div>
 
             {/* Stats Row */}
@@ -216,7 +227,7 @@ export default function Index() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 opacity-0 w-full" ref={addToRefs}>
+      <section id="about" className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 opacity-0 w-full" ref={addToRefs}>
         <div className="container mx-auto max-w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
             <div>
@@ -341,13 +352,17 @@ export default function Index() {
               Let's collaborate to bring your vision to life with innovative design and development solutions that drive real results.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-base sm:text-lg px-8 sm:px-12 py-4 sm:py-6 group w-full sm:w-auto">
-                Start Your Journey
-                <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
-              <Button size="lg" variant="outline" className="text-base sm:text-lg px-8 sm:px-12 py-4 sm:py-6 border-primary text-primary hover:bg-primary hover:text-primary-foreground w-full sm:w-auto">
-                Schedule a Call
-              </Button>
+              <Link to="/contact">
+                <Button size="lg" className="bg-primary hover:bg-primary/90 text-base sm:text-lg px-8 sm:px-12 py-4 sm:py-6 group w-full sm:w-auto">
+                  Start Your Journey
+                  <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </Link>
+              <Link to="/contact">
+                <Button size="lg" variant="outline" className="text-base sm:text-lg px-8 sm:px-12 py-4 sm:py-6 border-primary text-primary hover:bg-primary hover:text-primary-foreground w-full sm:w-auto">
+                  Schedule a Call
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
