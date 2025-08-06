@@ -51,7 +51,9 @@ export default function Index() {
             <a href="/" className="hover:text-primary transition-colors text-sm lg:text-base">Home</a>
             <a href="#services" className="hover:text-primary transition-colors text-sm lg:text-base">Services</a>
             <a href="#about" className="hover:text-primary transition-colors text-sm lg:text-base">About</a>
-            <a href="/contact" className="hover:text-primary transition-colors text-sm lg:text-base">Contact</a>
+            <Link to="/contact">
+              <a href="/contact" className="hover:text-primary transition-colors text-sm lg:text-base">Contact</a>
+            </Link>
           </div>
             <Link to="/contact">
               <Button className="bg-primary hover:bg-primary/90 text-sm md:text-base px-3 md:px-4 py-2">
