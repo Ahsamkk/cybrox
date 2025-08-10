@@ -136,7 +136,7 @@ export default function Index() {
                 { number: "25+", label: "Projects Completed" },
                 { number: "25+", label: "Happy Clients" },
                 { number: "24/7", label: "Support" },
-                { number: "1+", label: "Years Experience" }
+                { number: "99%", label: "On-Time Delivery" }
               ].map((stat, index) => (
                 <div key={index} className="text-center group">
                   <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-1 sm:mb-2 group-hover:scale-110 transition-transform">
