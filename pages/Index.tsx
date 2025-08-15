@@ -44,7 +44,7 @@ export default function Index() {
         <div className="container mx-auto px-4 py-2 flex items-center justify-between max-w-full">
           <div className="text-xl md:text-2xl">
             <Link to="/">
-              <img src="Main-Logo.png" alt="Logo" className="w-20 h-20" />
+              <img src="Main-Logo.webp" alt="Logo" className="w-20 h-20" />
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
@@ -375,7 +375,7 @@ export default function Index() {
         <div className="container mx-auto max-w-full">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-6 sm:mb-8">
             <div className="sm:col-span-2 lg:col-span-2">
-              <div className="text-2xl sm:text-3xl mb-3 sm:mb-4"><img src="Main-Logo.png" alt="" className="w-20 h-20" /></div>
+              <div className="text-2xl sm:text-3xl mb-3 sm:mb-4"><img src="Main-Logo.webp" alt="" className="w-20 h-20" /></div>
               <p className="text-muted-foreground max-w-md mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
                 Transforming ideas into digital reality through innovative design and development solutions that drive growth.
               </p>
