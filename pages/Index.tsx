@@ -258,7 +258,7 @@ export default function Index() {
                   },
                   {
                     icon: Globe,
-                    title: "Global Reach",
+                    title: "24/7 Support",
                     description: "Serving clients worldwide with 24/7 support"
                   }
                 ].map((feature, index) => (
